@@ -1,0 +1,27 @@
+.nav{
+    background-color: #003580;
+}
+.nav-container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 38px;
+}
+.btn:last-child{
+    margin-left: 8px;
+}
+.btn{
+    color:#003580;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 2px;
+}

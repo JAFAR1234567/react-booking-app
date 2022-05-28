@@ -1,0 +1,125 @@
+.header {
+  background-color: #003580;
+  position: relative;
+}
+.header_container {
+  max-width: 1024px;
+  margin: 0 auto;
+  color: #ffffff;
+  padding: 20px 15px 80px 15px;
+}
+.header_list {
+  display: flex;
+  gap: 20px;
+}
+.header_item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.header_item.active {
+  border: 2px solid gainsboro;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.header_content {
+  max-width: 900px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.header_content h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.header_content p {
+  font-size: 22px;
+}
+.header_btn {
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 3px;
+  background-color: #0071c2;
+  margin-top: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+}
+.headerSEarch {
+  display: flex;
+  height: 30px;
+  background: #ffffff;
+  padding: 10px 0;
+  justify-content: space-around;
+  border: 3px solid #febb02;
+  align-items: center;
+  position: absolute;
+  bottom: -25px;
+  max-width: 1024px;
+  width: 100%;
+}
+.headerIcon {
+  color: gray;
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: 900;
+}
+.headerSearchItem {
+  cursor: pointer;
+}
+.headerSearchItem input {
+  color: lightgray;
+  border: none;
+  outline: none;
+  color: #003580;
+  font-size: 17px;
+}
+.headerSearchItem span {
+  color: gray;
+}
+.mb {
+  margin-bottom: 20px;
+}
+.date {
+  position: absolute;
+  top: 55px;
+  left: 25%;
+  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+/* options */
+.options {
+  position: absolute;
+  top: 55px;
+  box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  z-index: 2;
+  background-color: #ffffff;
+  border-radius: 5px;
+  left: 61%;
+}
+.optionsItem {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+.optionText {
+  text-transform: capitalize;
+}
+.optionCunterBtn {
+  border: 1px solid #003580;
+  padding: 5px 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.optionCounterNumber{
+  padding: 0 10px;
+}
+
+.optionCunterBtn:disabled{
+  cursor: not-allowed;
+}

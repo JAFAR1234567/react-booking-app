@@ -1,0 +1,47 @@
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.featured{
+    width: 1024px;
+    margin: 50px auto;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+/* .singleFeatured .overlay{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 99;
+} */
+ .singleFeatured{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.singleFeatured h1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+}
+.singleFeatured h2{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.singleFeatured  img{
+    border-radius: 5px;
+    object-fit: cover;
+    overflow: hidden;
+} 
