@@ -6,7 +6,7 @@
 }
 .featured{
     width: 1024px;
-    margin: 50px auto;
+    margin: 50px auto 20px;
 }
 .bottom{
     display: grid;
